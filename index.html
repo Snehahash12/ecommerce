@@ -4,94 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps E-Commerce</title>
+    <title>MyShop - Simple E-Commerce</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <!-- Header -->
+    <!-- Navigation Bar -->
     <header>
-        <h1>DevOps E-Commerce</h1>
+        <nav class="navbar">
+            <div class="logo">
+                🛍️ MyShop
+            </div>
 
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="products.html">Products</a> |
-            <a href="cart.html">Cart</a> |
-            <a href="checkout.html">Checkout</a>
-	    <a href="cart.html">🛒 My Cart</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart 🛒</a></li>
+            </ul>
         </nav>
     </header>
 
-    <hr>
+    <!-- Hero Section -->
+    <main>
 
-    <!-- Welcome Section -->
-    <section>
-        <h2>Welcome to DevOps E-Commerce</h2>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to MyShop</h1>
 
-        <p>
-            Your simple online shopping website for practicing
-            Git, GitHub and DevOps.
-        </p>
+                <p>
+                    Find quality products at great prices.
+                </p>
 
-        <button>Shop Now</button>
-    </section>
+                <a href="#products" class="shop-button">
+                    Shop Now
+                </a>
+            </div>
+        </section>
 
-    <hr>
+        <!-- Products Section -->
+        <!-- Developer 2 will add products here -->
 
-    <!-- Products Section -->
-    <section>
-        <h2>Featured Products</h2>
+        <section id="products" class="products-section">
+            <h2>Our Products</h2>
 
-        <!-- Product 1 -->
-        <div>
-            <h3>Laptop</h3>
-            <p>Powerful laptop for work and development.</p>
-            <p><strong>Price: ₹50,000</strong></p>
-            <button>Add to Cart</button>
-        </div>
+            <div id="product-container">
+                <!-- Developer 2 will add product cards here -->
+            </div>
+        </section>
 
-        <br>
+        <!-- Cart Section -->
+        <!-- Developer 2 will implement cart functionality -->
 
-        <!-- Product 2 -->
-        <div>
-            <h3>Smartphone</h3>
-            <p>Latest smartphone with modern features.</p>
-            <p><strong>Price: ₹25,000</strong></p>
-            <button>Add to Cart</button>
-        </div>
+        <section id="cart" class="cart-section">
+            <h2>Shopping Cart</h2>
 
-        <br>
+            <div id="cart-container">
+                <p>Your cart is currently empty.</p>
+            </div>
+        </section>
 
-        <!-- Product 3 -->
-        <div>
-            <h3>Headphones</h3>
-            <p>Wireless headphones with clear sound.</p>
-            <p><strong>Price: ₹3,000</strong></p>
-            <button>Add to Cart</button>
-        </div>
-    </section>
-
-    <hr>
-
-    <!-- Categories -->
-    <section>
-        <h2>Shop By Category</h2>
-
-        <ul>
-            <li>Electronics</li>
-            <li>Computers</li>
-            <li>Mobile Phones</li>
-            <li>Accessories</li>
-        </ul>
-    </section>
-
-    <hr>
+    </main>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 DevOps E-Commerce</p>
-        <p>Created for Git and GitHub practice</p>
+        <p>&copy; 2026 MyShop. All rights reserved.</p>
     </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
 ```
+
